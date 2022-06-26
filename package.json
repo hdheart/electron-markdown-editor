@@ -7,9 +7,8 @@
     "npm": ">=8.1"
   },
   "author": {
-    "email": "kozackunisoft@gmail.com",
-    "name": "Alex Kozack",
-    "url": "https://kozack.me"
+    "email": "plantslect@gmail.com",
+    "name": "Dalphin"
   },
   "main": "packages/main/dist/index.cjs",
   "scripts": {
@@ -32,27 +31,51 @@
     "postinstall": "cross-env ELECTRON_RUN_AS_NODE=1 npx --no-install electron ./scripts/update-electron-vendors.js "
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.28.0",
-    "@vitejs/plugin-vue": "3.0.0-alpha.2",
-    "@vue/test-utils": "2.0.1",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-syntax-highlighter": "^15.5.2",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.29.0",
     "cross-env": "7.0.3",
     "electron": "19.0.4",
     "electron-builder": "23.0.3",
     "electron-devtools-installer": "3.2.0",
-    "eslint": "8.18.0",
-    "eslint-plugin-vue": "9.1.1",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
     "happy-dom": "5.3.1",
-    "nano-staged": "0.8.0",
     "playwright": "1.22.2",
-    "simple-git-hooks": "2.8.0",
     "typescript": "4.7.4",
     "unplugin-auto-expose": "0.0.1",
     "vite": "3.0.0-alpha.13",
-    "vitest": "0.15.1",
-    "vue-tsc": "0.38.1"
+    "vitest": "0.15.1"
   },
   "dependencies": {
+    "@codemirror/commands": "^6.0.0",
+    "@codemirror/gutter": "^0.19.9",
+    "@codemirror/highlight": "^0.19.8",
+    "@codemirror/history": "^0.19.2",
+    "@codemirror/lang-javascript": "^6.0.0",
+    "@codemirror/lang-markdown": "^6.0.0",
+    "@codemirror/language": "^6.1.0",
+    "@codemirror/language-data": "^6.1.0",
+    "@codemirror/matchbrackets": "^0.19.4",
+    "@codemirror/state": "^6.0.1",
+    "@codemirror/theme-one-dark": "^6.0.0",
+    "@codemirror/view": "^6.0.2",
+    "assert": "^2.0.0",
     "electron-updater": "5.0.1",
-    "vue": "3.2.37"
+    "github-markdown-css": "^5.1.0",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.3",
+    "react-syntax-highlighter": "^15.5.0",
+    "rehype-parse": "^8.0.4",
+    "rehype-react": "^7.1.1",
+    "remark-gfm": "^3.0.1",
+    "remark-parse": "^10.0.1",
+    "remark-react": "^9.0.1",
+    "remark-rehype": "^10.1.0",
+    "unified": "^10.1.2"
   }
 }

@@ -1,0 +1,6 @@
+.preview { 
+    /* padding: 12px; */
+    box-sizing: border-box;
+    overflow: auto;
+    color: #abb2bf;
+}
